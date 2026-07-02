@@ -1,6 +1,7 @@
 # Smart Glasses
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-My project is the Smart Glasses, that can allow you to identify objects in front of you, take pictures, and play video games, all without taking out your monitor. 
+<!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
+
+My project is the Smart Glasses, that can allow you to identify objects in front of you, take pictures, and play video games. It can also display time, and other information you want. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -10,7 +11,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Siqi F. | Basis Independent Silicon Valley Upper | Electrical Engineering | Incoming Junior
+| Siqi F. | Basis Independent Silicon Valley Upper | Engineering | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -48,15 +49,24 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6heKAk21Ivc?si=ubbtS4JYX64GRCiS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+<!---For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- What your plan is to complete your project-->
 
 **Components:**
+I'm using the Raspberry Pi 4 Model B and Camera Module to run the Object Recognition Software. This is all possible by using a MicroSd card inside the RaspPi. 
 
-My project is Smart Glasses, and I plan to build it by using Raspberry Pi and Object Recognition Software. For my materials, I am using a Raspberry Pi 4 Model B, connected to a camera module with a long cable strip. In order to run the program, I also have an SD card. The Raspberry Pi connects to the internet and through the IP Address, connects to my computer using a VNC that is connected to a monitor. So far I have the code that allows for the Object Recognition, the TensorFlow Lite, and it runs well. I changed some of the code to include a confidence meter based on how often the identification appears in the list of objects detected. I'm not completely sure how to add AI as an identifier instead of the current library I'm using because the current library is inaccurate and outdated, so that's the main challenge I'm facing right now. My plan for later is just to hopefully add AI recognition instead, and use an OLED to display things in the lenses. 
+**Technical Progress:**
+Some progress I've made is running the Camera Module, and displaying the camera on the VNC I'm using. I connected my computer to a monitor through VNC, which allows me to use the monitor remotely. The program succesfully shows the image detected, what it thinks the object is, and confidence meter.
+
+**Challenges:**
+One challenge I faced is that there was no confidence meter. I had to add that in with a new line of code. I did this by multiplying the confidence threshold inside the code by 100 to display the percentage. Another problem I faced was that the detector was displaying objects even when there was a low percentage of confidence. So I raised the confidence threshold, as well as the persistence threshold. The persistence threshold determines how much the object stays inside the screen, and the larger it is, the less likely it is to identify an object off screen. That also solved the problem where the camera was very laggy due to the large processes it was doing. A very big challenge though was that the library I was using was very outdated and inaccurate, which is why I want to change it in the future.
+
+**Future Plan:**
+My future plan is hopefully to use AI recognition in the future for more accurate identification, as well as using an OLED to display things through lenses instead of a monitor.
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
