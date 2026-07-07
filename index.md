@@ -35,13 +35,26 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ptUMADz4FMY?si=5-arr-m35SlL5tmB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone
+
+<br>**Components:**
+Aside from the original materials, I have also bought a 1.51 in transparent OLED in order to display text on a mini screen that you can see from the glasses. 
+
+**Technical Progress:**
+I've managed to get the OLED up and running, and I can run image recognition software on there. I also managed to connect it to the new library I'm using for object recognition.
+
+**Challenges:**
+Originally, I had planned to use AI recognition instead of a preexisting library, however doing some research into my options for AI revealed that it was not secure, especially the option I was considering, Google Studio Gemini. Instead I had to find a new image library. I am using OpenCV instead, which is for more general recognition and has a more broad amount of recognitions compared to TensorFlow Lite, which is more for specific image recognition.
+
+**Future Plan:**
+I am planning to start making a 3d print for holding the components, as the original was too flimsy and couldn't hold up the required materials. I also want to add more fun things to the display, such as a video game. 
+
 
 # First Milestone
 
