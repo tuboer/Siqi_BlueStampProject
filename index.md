@@ -16,7 +16,11 @@ You should comment out all portions of your portfolio that you have not complete
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
+
+
+<iframe id="vs_iframe" src="https://www.viewstl.com/?embedded&bgcolor=white&shading=flat&clean=yes" style="border:0;margin:0;width:100%;height:100%;"></iframe>
+
+
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
