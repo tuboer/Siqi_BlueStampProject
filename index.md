@@ -18,7 +18,39 @@ You should comment out all portions of your portfolio that you have not complete
 ![Headstone Image](logo.svg)
 
 
-<iframe id="vs_iframe" src="https://www.viewstl.com/?embedded&bgcolor=white&shading=flat&clean=yes" style="border:0;margin:0;width:100%;height:100%;"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D STL Viewer</title>
+    
+    <!-- Import the model-viewer JavaScript component library -->
+    <script type="module" src="https://googleapis.com"></script>
+    
+    <style>
+        /* Give the 3D canvas a defined height and width */
+        model-viewer {
+            width: 100%;
+            height: 500px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My 3D Model Display</h1>
+
+    <!-- Render the STL model with interactive zoom, rotation, and controls -->
+    <model-viewer 
+        src="SmartGlassesV1.stl" 
+        alt="A 3D model representation" 
+        auto-rotate 
+        camera-controls>
+    </model-viewer>
+
+</body>
+</html>
 
 
 # Final Milestone
