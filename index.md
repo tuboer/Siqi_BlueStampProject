@@ -17,40 +17,32 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](logo.svg)
 
+<!-- Required 3D libraries (Three.js dependencies for STL support) -->
+<script src="https://cloudflare.com"></script>
+<script src="https://jsdelivr.net"></script>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D STL Viewer</title>
-    
-    <!-- Import the model-viewer JavaScript component library -->
-    <script type="module" src="https://googleapis.com"></script>
-    
-    <style>
-        /* Give the 3D canvas a defined height and width */
-        model-viewer {
-            width: 100%;
-            height: 500px;
-            background-color: #f0f0f0;
-        }
-    </style>
-</head>
-<body>
+<!-- Google model-viewer component library -->
+<script type="module" src="https://googleapis.com"></script>
 
-    <h1>My 3D Model Display</h1>
+<style>
+    model-viewer {
+        width: 100%;
+        height: 500px;
+        background-color: #f0f0f0;
+        display: block;
+        margin: 20px auto;
+    }
+</style>
 
-    <!-- Render the STL model with interactive zoom, rotation, and controls -->
-    <model-viewer 
-        src="SmartGlassesV1.stl" 
-        alt="A 3D model representation" 
-        auto-rotate 
-        camera-controls>
-    </model-viewer>
+# My 3D Model Display
 
-</body>
-</html>
+<!-- Interactive STL 3D element -->
+<model-viewer 
+    src="./SmartGlassesV1.stl" 
+    alt="A 3D model representation" 
+    auto-rotate 
+    camera-controls>
+</model-viewer>
 
 
 # Final Milestone
