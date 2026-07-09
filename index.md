@@ -17,32 +17,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](logo.svg)
 
-<!-- Required 3D libraries (Three.js dependencies for STL support) -->
-<script src="https://cloudflare.com"></script>
-<script src="https://jsdelivr.net"></script>
 
-<!-- Google model-viewer component library -->
-<script type="module" src="https://googleapis.com"></script>
-
-<style>
-    model-viewer {
-        width: 100%;
-        height: 500px;
-        background-color: #f0f0f0;
-        display: block;
-        margin: 20px auto;
-    }
-</style>
-
-# My 3D Model Display
-
-<!-- Interactive STL 3D element -->
-<model-viewer 
-    src="./SmartGlassesV1.stl" 
-    alt="A 3D model representation" 
-    auto-rotate 
-    camera-controls>
-</model-viewer>
 
 
 # Final Milestone
@@ -57,6 +32,17 @@ You should comment out all portions of your portfolio that you have not complete
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE--->
 
+<br>**Accomplishments:**
+I've managed to make my own 3d model of the glasses I am going to use with the OLED and camera. I made a seperate piece for the mirror that is detatchable from the glasses as since the mirrors have to be at a 45 degree angle, they will be covering your view slightly. For the OLED, I have flipped the display screen so that we can see it through the mirror, as the display will be reversed by the mirror. There will be an added part in the glasses that will protrude outwards in order to show the OLED. The wires for the OLED will be extended through jumper wires, and help in place by electrical tape. 
+
+**Biggest challenges:**
+Some of the biggest challenges I faced was finding a good library for the image recognition portion of the Smart Glasses, as the guide I was given used TensorFlow Lite Object Recognition Library, however the downside of TensorFlow Lite is that it is taylored to specific objects rather than general ones. In my case it was for cups and dog breeds, something that I didn't need to recognize with the glasses. Instead I found a different image library, OpenCV. OpenCV is used most commonly by big companies for object recognition, and especially for more broad topics, which fit what I needed perfectly. 
+
+**What I learned:**
+Before starting BlueStamps Engineering, I had almost no experience in CADing 3d models, especially with complex design. I had used 3d printers in the past, but most designs were relatively simply or predesigned. At BlueStamps, I learned how to use OnShape for 3d modeling objects to print, which I think will be helpful in the future if I make more similar projects. Also, the main language I used for my project was python, as the processor I used was RaspberryPi, which uses python as it's language. I think forcing myself to interact with python has helped me learn more about how to use it for future coding projects.
+
+**Future Plans:**
+After everything I've learned at BlueStamps, I plan to use this experience to keep on experimenting and building things for myself. I feel BlueStamps has given me the intiative and experience to help plan my own projects in the future. For my project, I plan to add more software aspects in them as well. 
 
 
 # Second Milestone
@@ -75,7 +61,7 @@ You should comment out all portions of your portfolio that you have not complete
 Aside from the original materials, I have also bought a 1.51 in transparent OLED in order to display text on a mini screen that you can see from the glasses. 
 
 **Technical Progress:**
-I've managed to get the OLED up and running, and I can run image recognition software on there. I also managed to connect it to the new library I'm using for object recognition.
+I've managed to get the OLED up and running, and I can run image recognition software on there. I also managed to connect it to the new library I'm using for object recognition. In the future, these OLEDs will be able to display whatever I tell it too, like video games or the time.
 
 **Challenges:**
 Originally, I had planned to use AI recognition instead of a preexisting library, however doing some research into my options for AI revealed that it was not secure, especially the option I was considering, Google Studio Gemini. Instead I had to find a new image library. I am using OpenCV instead, which is for more general recognition and has a more broad amount of recognitions compared to TensorFlow Lite, which is more for specific image recognition.
