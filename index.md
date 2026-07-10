@@ -15,6 +15,12 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
+<div style="display: flex !important; align-items: center !important; gap: 20px !important;">
+  <img src="Siqi F.png" style="display: inline-block !important; width: 300px !important; height: auto !important; flex-shrink: 0 !important;" alt="My Profile Photo">
+</div>
+
+
+
 ![Headstone Image](logo.svg)
 
 
@@ -34,13 +40,13 @@ You should comment out all portions of your portfolio that you have not complete
 I've managed to make my own 3d model of the glasses I am going to use with the OLED and camera. I made a seperate piece for the mirror that is detatchable from the glasses as since the mirrors have to be at a 45 degree angle, they will be covering your view slightly. For the OLED, I have flipped the display screen so that we can see it through the mirror, as the display will be reversed by the mirror. There will be an added part in the glasses that will protrude outwards in order to show the OLED. The wires for the OLED will be extended through jumper wires, and help in place by electrical tape. 
 
 **Biggest challenges:**
-Some of the biggest challenges I faced was finding a good library for the image recognition portion of the Smart Glasses, as the guide I was given used TensorFlow Lite Object Recognition Library, however the downside of TensorFlow Lite is that it is taylored to specific objects rather than general ones. In my case it was for cups and dog breeds, something that I didn't need to recognize with the glasses. Instead I found a different image library, OpenCV. OpenCV is used most commonly by big companies for object recognition, and especially for more broad topics, which fit what I needed perfectly. Another big problem was connecting my Raspberry Pi to my phone. I wanted to use bluetooth connection, but as I have an IOS phone, connecting through bluetooth requires more tedious processes, such as connecting through BLE (Bluetooth Light Environment), and even then it was hard to find my RaspberryPi in the list of devices. Therefore, I decided connecting through wifi was easier. However this raised another problem, if wifi is required then these glasses would not be truly remote. 
+Some of the biggest challenges I faced was finding a good library for the image recognition portion of the Smart Glasses, as the guide I was given used TensorFlow Lite Object Recognition Library, however the downside of TensorFlow Lite is that it is taylored to specific objects rather than general ones. In my case it was for cups and dog breeds, something that I didn't need to recognize with the glasses. Instead I found a different image library, OpenCV. OpenCV is used most commonly by big companies for object recognition, and especially for more broad topics, which fit what I needed perfectly. Another big problem was connecting my Raspberry Pi to my phone. I wanted to use bluetooth connection, but as I have an IOS phone, connecting through bluetooth requires more tedious processes, such as connecting through BLE (Bluetooth Light Environment), and even then it was hard to find my RaspberryPi in the list of devices. Therefore, I decided connecting through wifi was easier. However this raised another problem, if wifi is required then these glasses would not be truly remote. Instead, I decided to connect to the RaspberryPi's internal hotspot instead so I could connect my phone to the OLED.
 
 **What I learned:**
 Before starting BlueStamps Engineering, I had almost no experience in CADing 3d models, especially with complex design. I had used 3d printers in the past, but most designs were relatively simply or predesigned. At BlueStamps, I learned how to use OnShape for 3d modeling objects to print, which I think will be helpful in the future if I make more similar projects. Also, the main language I used for my project was python, as the processor I used was RaspberryPi, which uses python as it's language. I think forcing myself to interact with python has helped me learn more about how to use it for future coding projects.
 
 **Future Plans:**
-After everything I've learned at BlueStamps, I plan to use this experience to keep on experimenting and building things for myself. I feel BlueStamps has given me the intiative and experience to help plan my own projects in the future. For my project, I plan to add more software aspects in them as well. 
+After everything I've learned at BlueStamps, I plan to use this experience to keep on experimenting and building things for myself. I feel BlueStamps has given me the intiative and experience to help plan my own projects in the future. For my project, I plan to add more software aspects in them as well as fixing some unstable parts of the project, as some parts are still a bit wobbly.
 
 
 # Second Milestone
