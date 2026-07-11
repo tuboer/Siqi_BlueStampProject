@@ -3,17 +3,12 @@
 
 My project is the Smart Glasses, that can allow you to identify objects in front of you, take pictures, and play video games. It can also display time, and other information you want. It is all connected remotely to my phone, so I can run stuff through there instead of using computer. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Siqi F. | Basis Independent Silicon Valley | Computer Science/Electrical Engineering | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**--->
 
 <div style="display: flex !important; align-items: center !important; gap: 20px !important;">
   <img src="Siqi F.png" style="display: inline-block !important; width: 300px !important; height: auto !important; flex-shrink: 0 !important;" alt="My Profile Photo">
@@ -315,19 +310,19 @@ if __name__ == "__main__":
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+<!---Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs.--->
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi 4 Model B | Running Pi | $120.0 | <a href="https://www.adafruit.com/product/4296"> Link </a> |
 | Raspberry Pi Camera | Camera | $29.95 | <a href="https://www.adafruit.com/product/3099"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 1.51in Transparent OLED | Miniature Display | $19.99 | <a href="https://www.waveshare.com/1.51inch-transparent-oled.htm?srsltid=AfmBOopQAkjiJT9abj5COolqzPIaRsP3oaVcOENjw4V_90vfQi4OvS79"> Link </a> |
+| Mirror | Reflect Screen | $1.00 | <a href="https://www.amazon.com/Circles-Projects-Traveling-Framing-Decoration/dp/B014Q7AVKG"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [TensorFlow Lite Object Recognition](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/overview)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
+- [RaspberryPi Camera tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0)
+- [Object Identification with Raspberry Pi](https://core-electronics.com.au/guides/object-identify-raspberry-pi/)
+- [Smart Glasses](https://thedinosour.github.io/Chris_BlueStampPortfolio/)
