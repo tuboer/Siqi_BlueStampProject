@@ -662,7 +662,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Mirror | Reflect Screen | $1.00 | <a href="https://www.amazon.com/Circles-Projects-Traveling-Framing-Decoration/dp/B014Q7AVKG"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+<!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.--->
 - [TensorFlow Lite Object Recognition](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/overview)
 - [RaspberryPi Camera tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0)
 - [Object Identification with Raspberry Pi](https://core-electronics.com.au/guides/object-identify-raspberry-pi/)
